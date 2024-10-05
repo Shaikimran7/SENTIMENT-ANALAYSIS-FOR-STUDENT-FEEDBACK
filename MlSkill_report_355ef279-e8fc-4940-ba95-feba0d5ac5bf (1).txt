@@ -1,0 +1,57 @@
+
+** ACCOUNT INFORMATION **
+
+TENANT_ID: e5aba22b-86f9-4dff-ab41-5ad3b1cc873b
+ACCOUNT_ID: 3c26cae6-89ac-40d1-8b99-757a2e65b683
+SUPPORT_ID: Unable to fetch support Id due to: com.uipath.ml.exception.BaseException: Error while processing unauthorized response headers, WWW-Authenticate header is missing
+AI_UNITS_REMAINING: 4905.0
+GEO_LOCATION: we
+
+** ML PACKAGE INFORMATION **
+
+ML_PACKAGE_NAME: CourseReviewSentimentAnalysis
+ML_PACKAGE_ID: 19eaa349-3afc-47c2-afe7-1e536ca99be7
+ML_PACKAGE_VERSION_ID: 9efab4b1-712e-440b-8654-749af926c1ef
+PROJECT_ID: bcfd0733-5111-409d-900c-50afa4d7ce1b
+BASE_PACKAGE_NAME: 
+
+** ML SKILL INFORMATION **
+
+SKILL_ID: 355ef279-e8fc-4940-ba95-feba0d5ac5bf
+SKILL_NAME: CourseReviewSentimentAnalysisML
+STATUS: AVAILABLE
+PROCESSOR: CPU
+SKILL_VERSION_ID: f26b3d63-0ef2-46cb-9da1-b29781ff32b8
+BLOCKED_DEPLOYMENTS: 1
+BLOCKED_GPU: 0
+CPU_LIMIT: 2.0
+MEMORY_LIMIT: 9
+REPLICAS: 1
+REQUESTED_CPU: 0.5
+REQUESTED_MEMORY: 2
+
+** STREAMING LOGS **
+
+2024-10-05 07:18:12,872 - opencensus.trace.config_integration:trace_integrations:35 - WARNING:  Failed to integrate module: opencensus.ext.logging.trace
+2024-10-05 07:18:12,872 - opencensus.trace.config_integration:trace_integrations:36 - WARNING:  No module named 'opencensus.ext.logging'
+2024-10-05 07:18:12,937 - opencensus.ext.requests.trace:trace_integration:49 - INFO:  Integrated module: requests
+2024-10-05 07:18:12,938 - uipath_core.microservice:main:66 - INFO:  Starting microservice.py:main
+2024-10-05 07:18:12,938 - uipath_core.microservice:main:67 - INFO:  Configuration:
+2024-10-05 07:18:12,938 - uipath_core.microservice:main:68 - INFO:      worker_type: gevent
+2024-10-05 07:18:12,938 - uipath_core.microservice:main:69 - INFO:      model_init: eager
+2024-10-05 07:18:12,938 - uipath_core.microservice:main:70 - INFO:      server_for_gpu: WSGI
+2024-10-05 07:18:12,941 - uipath_core.microservice:main:83 - INFO:  Importing CourseReviewSentimentAnalysis
+2024-10-05 07:18:12,942 - uipath_core.microservice:main:98 - INFO:  REST microservice running on port 5000
+2024-10-05 07:18:13,546 - uipath_core.plugin:model_load:87 - INFO:  Start model initialization...
+2024-10-05 07:18:14,545 - uipath_core.plugin:model_load:100 - INFO:  Successfully loaded the module, timeTaken: 0.9988977909088135
+
+
+
+** AUDIT LOGS **
+
+SEVERITY | USER                   | DESCRIPTION                                                                    | CREATED_ON                  
+-------- | ---------------------- | ------------------------------------------------------------------------------ | ----------------------------
+INFO     | 23am1a0579@svrec.ac.in | MLSkill CourseReviewSentimentAnalysisML MLPackage v#22.12.0 Deployment Started | Sat Oct 05 07:16:45 UTC 2024
+INFO     |                        | MLSkill CourseReviewSentimentAnalysisML MLPackage v#22.12.0 Is Available       | Sat Oct 05 07:19:51 UTC 2024
+
+** AUDIT LOG DETAILS **
